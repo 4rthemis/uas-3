@@ -1,18 +1,19 @@
-import React, { useEffect } from "react";
-import Portfolio from "./components/Portfolio";
-import "./styles/globals.css";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+import { PortfolioTemplate } from "./components/templates/PortfolioTemplate";
 
 function App() {
   useEffect(() => {
     AOS.init({
       duration: 800,
-      once: true, // animasi hanya sekali scroll
+      once: true, 
+      easing: 'ease-in-out',
     });
   }, []);
 
-  return <Portfolio />;
+  return <PortfolioTemplate />;
 }
 
 export default App;

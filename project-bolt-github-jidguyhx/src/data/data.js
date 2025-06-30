@@ -90,7 +90,7 @@ export const projects = [
     title: "Gluca - HealthCare App",
     category: "UI/UX Case Study",
     categoryColor: "text-[#808690]",
-    image: "/image/project-3.png",
+    image: "/image/project-4.png",
     hasArrow: true,
     url: "https://dribbble.com/shots/25035502-Gluca-Health-App",
     bgColor: "bg-white",
@@ -103,7 +103,7 @@ export const testimonials = [
   {
     id: "mellynda",
     quote:
-      "Syahrul stood out in the UI/UX Bootcamp Myskill with his strong design and presentation skills, along with great dedication to learning. We truly appreciate his contributions and wish him continued success ahead.",
+      "Syahrul stood out in the UI/UX Bootcamp with strong design, presentation skills, and dedication to learning. We appreciate and wish him continued success.",
     image: "/image/mellynda.png",
     name: "Mellynda Novi",
     role: "UIUX Designer",
@@ -114,7 +114,7 @@ export const testimonials = [
   {
     id: "rigan",
     quote:
-      "I've known Syahrul since our school days, and now we're lucky enough to work together in the same team. As a UI/UX Designer, I've been consistently impressed by his skills and dedication to every project he takes on. Syahrul has an amazing ability to create designs that are not only visually appealing but also incredibly user-friendly.",
+      "I've known Syahrul since school, and now as teammates, I'm impressed by his skill and dedication. His designs are both visually appealing and user-friendly.",
     image: "/image/rigan.png",
     name: "Rigan Nur Fauzi",
     role: "Frontend Developer",
@@ -125,7 +125,7 @@ export const testimonials = [
   {
     id: "rifqi",
     quote:
-      "I highly recommend Syahrul as a talented and dedicated professional. His expertise in UI/UX design and product design is truly impressive. I have enjoyed working with him at my current company, and he consistently demonstrates creativity, attention to detail, and a strong commitment to delivering high-quality work.",
+      "Syahrul is a talented UI/UX and product designer. He consistently brings creativity, attention to detail, and delivers high-quality work.",
     image: "/image/rifqi.png",
     name: "Rifqi Ikhsan Rizkillah",
     role: "Frontend Developer",
@@ -136,7 +136,7 @@ export const testimonials = [
   {
     id: "taqi",
     quote:
-      "I highly recommend Syahrul Awaludin for his exceptional talents in UI/UX design and collaborative abilities. Having worked closely with Syahrul, I've consistently been impressed by his keen eye for user-centered design and ability to transform complex requirements into elegant, intuitive interfaces.",
+      "Syahrul has a sharp eye for user-centered design and excels at turning complex needs into intuitive interfaces. A great collaborator.",
     image: "/image/taqi.png",
     name: "Muh. Taqi Dzakwan",
     role: "UI Designer",
@@ -147,7 +147,7 @@ export const testimonials = [
   {
     id: "arifin",
     quote:
-      "Syahrul stood out in the UI/UX Bootcamp Myskill with his strong design and presentation skills, along with great dedication to learning. We truly appreciate his contributions and wish him continued success ahead.",
+      "Syahrul stood out in the Bootcamp for his strong design, presentation skills, and eagerness to learn. His work made a real impact.",
     image: "/image/arifin.png",
     name: "Arifin Habibi",
     role: "Full Stack Developer",
@@ -156,6 +156,7 @@ export const testimonials = [
     roleColor: "text-[#808690]",
   },
 ];
+
 
 export const socialLinks = [
   {

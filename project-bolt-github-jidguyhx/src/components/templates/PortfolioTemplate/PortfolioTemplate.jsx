@@ -7,6 +7,7 @@ import { FooterSection } from "../../organisms/FooterSection/FooterSection";
 import { usePortfolio } from "../../../hooks/usePortfolio";
 import { Ticker } from "../../molecules/Ticker/Ticker";
 
+
 export const PortfolioTemplate = () => {
   const {
     personalInfo,
@@ -27,11 +28,9 @@ export const PortfolioTemplate = () => {
           navigationItems={navigationItems}
         />
       </div>
+ <Ticker items={designerRoles} />
+     
 
-      {/* Ticker - Full width */}
-      <Ticker items={designerRoles} />
-
-      {/* Main Content Sections - Consistent container with margins */}
       <div className="w-full">
         <div className="max-w-screen-2xl mx-auto px-4 sm:px-8 md:px-16 lg:px-[120px] space-y-20 sm:space-y-24 md:space-y-28 lg:space-y-32">
           <AboutSection personalInfo={personalInfo} />
@@ -40,12 +39,10 @@ export const PortfolioTemplate = () => {
         </div>
       </div>
 
-      {/* Testimonials - Full width */}
       <div className="w-full mt-20 sm:mt-24 md:mt-28 lg:mt-32">
         <TestimonialsSection testimonials={testimonials} />
       </div>
 
-      {/* Footer - Full width */}
       <div className="w-full mt-20 sm:mt-24 md:mt-28 lg:mt-32">
         <FooterSection socialLinks={socialLinks} />
       </div>
